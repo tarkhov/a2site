@@ -1,0 +1,50 @@
+#!/bin/sh
+
+hosts="/etc/hosts"
+sites="/etc/apache2/sites-available"
+
+# Validate site
+site=$1
+if [ ! $site ]; then
+    echo "Site not provided."
+    exit
+fi
+
+# Validate directory
+dir=$2
+if [ ! $dir ]; then
+    echo "Directory not provided."
+    exit
+fi
+
+domain=$3
+if [ ! $domain ]; then
+    echo "Domain name not provided."
+    exit
+fi
+
+host=$4
+if [ ! $host ]; then
+    host="127.0.0.1"
+fi
+
+if [ ! -f $hosts -o ! -w $hosts ]; then
+    echo "Hosts $hosts not exists or not writable."
+    exit
+fi
+
+if [ ! -d $dir ]; then
+    echo "Directory not exists."
+    exit
+fi
+
+vhost="$sites/$site"
+if [ ! -f $vhost ]; then
+    echo "Virtual host not exists."
+    exit
+fi
+
+a2dissite $site
+service apache2 reload
+rm -R $dir
+rm $vhost

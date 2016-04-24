@@ -1,0 +1,80 @@
+#!/bin/sh
+
+# Global variables
+hosts="/etc/hosts"
+sites="/etc/apache2/sites-available"
+a2site="/etc/apache2/a2site.conf"
+
+# Validate site
+site=$1
+if [ ! $site ]; then
+    echo "Site not provided."
+    exit
+fi
+
+# Validate directory
+dir=$2
+if [ ! $dir ]; then
+    echo "Directory not provided."
+    exit
+fi
+
+# Validate domain
+domain=$3
+if [ ! $domain ]; then
+    echo "Domain name not provided."
+    exit
+fi
+
+# Validate host
+host=$4
+if [ ! $host ]; then
+    host="127.0.0.1"
+fi
+
+# Validate /etc/hosts
+if [ ! -f $hosts -o ! -w $hosts ]; then
+    echo "Hosts $hosts not exists or not writable."
+    exit
+fi
+
+# Validate /etc/apache2/sites-available
+if [ ! -d $sites ]; then
+    echo "Path $sites not exists. Please sure the Apache2 is installed."
+    exit
+fi
+
+# Validate virtual host
+vhost="$sites/$site"
+if [ -f $vhost ]; then
+    echo "Virtual host $vhost exists."
+    exit
+fi
+
+# Validate a2site.conf
+if [ ! -f $a2site ]; then
+    echo "File $a2site not exists."
+    exit
+fi
+
+# Create virtual host
+# http://rosettacode.org/wiki/Read_entire_file#UNIX_Shell
+site_data=$(printf '%s\n' "$(cat $a2site)" | sed -e "s/\${SITE_NAME}/${domain}/g" | sed -e "s#\${SITE_DIR}#${dir}#g")
+printf '%s\n' "$site_data" > $vhost
+
+# Validate site directory and make if not exists
+if [ ! -d $dir ]; then
+    mkdir -p $dir
+    if [ $SUDO_USER ]; then
+        chown -R "$SUDO_USER:$SUDO_USER" $dir
+    fi
+fi
+
+# Create record in /etc/hosts
+echo "$host   $domain" >> $hosts
+
+# Enable virtual host
+a2ensite $site
+
+# Reload Apache
+service apache2 reload
