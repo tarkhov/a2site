@@ -1,7 +1,5 @@
 # a2site
 
-### Quickstart
-
 Installation:
 
 ```bash
