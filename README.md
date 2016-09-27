@@ -1,19 +1,21 @@
 # a2site
 
-## Quickstart
+### Quickstart
+
+Installation:
 
 ```bash
 sudo sh install.sh
 ```
 
-Create site.
+Create site:
 
 ```bash
-sudo a2mksite mysite.conf ~/mysite mydomain 127.0.0.1
+sudo a2mksite mysite.conf ~/myfolder mydomain 127.0.0.1
 ```
 
-Remove site.
+Remove site:
 
 ```bash
-sudo a2rmsite mysite.conf ~/mysite mydomain 127.0.0.1
+sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 ```
