@@ -44,6 +44,8 @@ if [ ! -f $vhost ]; then
     exit
 fi
 
+sed -i "/^${host}   ${domain}$/d" $hosts
+
 a2dissite $site
 service apache2 reload
 rm -R $dir
