@@ -1,4 +1,4 @@
 #!/bin/sh
 
-debuild -k$GPGKEY
+debuild -S -k$GPGKEY
 debuild clean

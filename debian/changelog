@@ -1,0 +1,5 @@
+a2site (0.1.0-1) xenial; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Alex Tarkhov <agtuks@gmail.com>  Sun, 30 Oct 2016 17:00:22 +0200
