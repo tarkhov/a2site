@@ -48,4 +48,4 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
+This project is licensed under the **Apache 2.0 License** - see the `LICENSE` file for details.
