@@ -7,6 +7,8 @@ Apache2 HTTP Server site creation and removing tools using command line.
 1. [Installation](#installation)
   1. [Ubuntu](#ubuntu)
 2. [Usage](#usage)
+  1. [Site creation](#site-creation)
+  2. [Site removal](#site-removal)
 
 ## Installation
 
@@ -22,13 +24,13 @@ sudo apt-get install a2site
 
 ## Usage
 
-Create site:
+### Site creation
 
 ```bash
 sudo a2mksite mysite.conf ~/myfolder mydomain 127.0.0.1
 ```
 
-Remove site:
+### Site removal
 
 ```bash
 sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
