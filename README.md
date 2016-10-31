@@ -10,7 +10,7 @@ Apache2 HTTP Server site creation and removing tools using command line.
   1. [Site creation](#site-creation)
   2. [Site removing](#site-removing)
 3. [Author](#author)
-3. [License](#license)
+4. [License](#license)
 
 ## Installation
 
