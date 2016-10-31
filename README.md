@@ -2,7 +2,10 @@
 
 Apache2 HTTP Server site creation and removing tools using command line.
 
-### Installation
+1 [Installation](#installation)
+2 [Usage](#usage)
+
+## Installation
 
 Ubuntu Linux :penguin:
 
@@ -12,7 +15,7 @@ sudo apt-get update
 sudo apt-get install a2site
 ```
 
-### Usage
+## Usage
 
 Create site:
 
