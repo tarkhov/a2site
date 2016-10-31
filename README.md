@@ -39,7 +39,7 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 ## Author
 
-Alex Tarkhov.
+**Alex Tarkhov**
 
 * https://twitter.com/alextarkhov
 * https://medium.com/@alextarkhov
