@@ -9,6 +9,7 @@ Apache2 HTTP Server site creation and removing tools using command line.
 2. [Usage](#usage)
   1. [Site creation](#site-creation)
   2. [Site removing](#site-removing)
+3. [Author](#author)
 
 ## Installation
 
@@ -35,3 +36,10 @@ sudo a2mksite mysite.conf ~/myfolder mydomain 127.0.0.1
 ```bash
 sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 ```
+
+## Author
+
+Alex Tarkhov.
+
+* https://twitter.com/alextarkhov
+* https://medium.com/@alextarkhov
