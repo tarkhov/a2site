@@ -42,9 +42,9 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 **Alex Tarkhov**
 
-* https://www.facebook.com/alextarkhov
-* https://twitter.com/alextarkhov
-* https://medium.com/@alextarkhov
+* [Facebook](https://www.facebook.com/alextarkhov)
+* [Twitter](https://twitter.com/alextarkhov)
+* [Medium](https://medium.com/@alextarkhov)
 
 ## License
 
