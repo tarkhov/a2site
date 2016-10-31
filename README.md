@@ -1,9 +1,13 @@
 # a2site
 
-Installation:
+Apache2 HTTP Server site creation and removing tools using command line.
+
+### Installation
 
 ```bash
-sudo sh install.sh
+sudo add-apt-repository ppa:alextarkhov/ppa
+sudo apt-get update
+sudo apt-get install a2site
 ```
 
 Create site:
