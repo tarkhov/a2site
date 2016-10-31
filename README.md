@@ -9,7 +9,7 @@ Apache2 HTTP Server site creation and removing tools using command line.
 
 ## Installation
 
-Ubuntu:
+### Ubuntu
 
 ```bash
 sudo add-apt-repository ppa:alextarkhov/ppa
