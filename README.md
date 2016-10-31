@@ -4,11 +4,15 @@ Apache2 HTTP Server site creation and removing tools using command line.
 
 ### Installation
 
+Ubuntu Linux :penguin:
+
 ```bash
 sudo add-apt-repository ppa:alextarkhov/ppa
 sudo apt-get update
 sudo apt-get install a2site
 ```
+
+### Usage
 
 Create site:
 
