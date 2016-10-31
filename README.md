@@ -10,6 +10,7 @@ Apache2 HTTP Server site creation and removing tools using command line.
   1. [Site creation](#site-creation)
   2. [Site removing](#site-removing)
 3. [Author](#author)
+3. [License](#license)
 
 ## Installation
 
@@ -44,3 +45,7 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 * https://www.facebook.com/alextarkhov
 * https://twitter.com/alextarkhov
 * https://medium.com/@alextarkhov
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
