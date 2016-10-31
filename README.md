@@ -11,6 +11,8 @@ Apache2 HTTP Server site creation and removing tools using command line.
 
 ### Ubuntu
 
+From PPA:
+
 ```bash
 sudo add-apt-repository ppa:alextarkhov/ppa
 sudo apt-get update
