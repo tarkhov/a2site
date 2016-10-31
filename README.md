@@ -2,12 +2,12 @@
 
 Apache2 HTTP Server site creation and removing tools using command line.
 
-1 [Installation](#installation)
-2 [Usage](#usage)
+1. [Installation](#installation)
+2. [Usage](#usage)
 
 ## Installation
 
-Ubuntu Linux :penguin:
+Ubuntu:
 
 ```bash
 sudo add-apt-repository ppa:alextarkhov/ppa
