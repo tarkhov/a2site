@@ -40,7 +40,7 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 ## Author
 
-**Alex Tarkhov**
+**Alexander G. Tarkhov**
 
 * [Facebook](https://www.facebook.com/agtuks)
 * [Twitter](https://twitter.com/agtuks)
