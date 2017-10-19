@@ -19,7 +19,7 @@ Apache2 HTTP Server site creation and removing tools using command line.
 From PPA:
 
 ```bash
-sudo add-apt-repository ppa:agtuks/ppa
+sudo add-apt-repository ppa:tarhov/ppa
 sudo apt-get update
 sudo apt-get install a2site
 ```
@@ -42,9 +42,9 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 **Alexander G. Tarkhov**
 
-* [Facebook](https://www.facebook.com/agtuks)
-* [Twitter](https://twitter.com/agtuks)
-* [Medium](https://medium.com/@agtuks)
+* [Facebook](https://www.facebook.com/tarhovcom)
+* [Twitter](https://twitter.com/tarhovcom)
+* [Medium](https://medium.com/@tarhov)
 * [Product Hunt](https://www.producthunt.com/@agtuks)
 
 ## License
