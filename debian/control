@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Alex Tarkhov <agtuks@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: https://github.com/alextarkhov/a2site
+Homepage: https://github.com/tarkhov/a2site
 #Vcs-Git: git://anonscm.debian.org/collab-maint/a2site.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/a2site.git
 
