@@ -1,4 +1,4 @@
-# a2site
+# Apache site management
 
 Apache2 HTTP Server site creation and removing tools using command line.
 
