@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: a2site
-Source: https://github.com/tarkhov/a2site
+Upstream-Name: apache-site-commands
+Source: https://github.com/tarkhov/apache-site-commands
 
 Files: *
-Copyright: 2016-2017 Alex Tarkhov <agtuks@gmail.com>
+Copyright: 2016-2018 Alexander Tarkhov <agtuks@gmail.com>
 License: Apache-2.0
 
 Files: debian/*
-Copyright: 2016-2017 Alex Tarkhov <agtuks@gmail.com>
+Copyright: 2016-2018 Alexander Tarkhov <agtuks@gmail.com>
 License: Apache-2.0
 
 License: Apache-2.0

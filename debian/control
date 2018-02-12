@@ -1,15 +1,13 @@
-Source: a2site
+Source: apache-site-commands
 Section: httpd
 Priority: optional
-Maintainer: Alex Tarkhov <agtuks@gmail.com>
+Maintainer: Alexander Tarkhov <agtuks@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: https://github.com/tarkhov/a2site
-#Vcs-Git: git://anonscm.debian.org/collab-maint/a2site.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/a2site.git
+Homepage: https://github.com/tarkhov/apache-site-commands
 
-Package: a2site
+Package: apache-site-commands
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Apache2 site creation and removing tools
- Apache2 HTTP Server site creation and removing tools using command line.
+Description: Apache site creation and removing tools
+ Apache HTTP Server site creation and removing tools using command line.

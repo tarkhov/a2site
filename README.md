@@ -1,6 +1,6 @@
 # Apache site management
 
-Apache2 HTTP Server site creation and removing tools using command line.
+Apache HTTP Server site creation and removing tools using command line.
 
 ### Contents
 
@@ -21,7 +21,7 @@ From PPA:
 ```bash
 sudo add-apt-repository ppa:tarkhov/ppa
 sudo apt-get update
-sudo apt-get install a2site
+sudo apt-get install apache-site-commands
 ```
 
 ## Usage
@@ -40,9 +40,9 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 ## Author
 
-**Alexander G. Tarkhov**
+**Alexander Tarkhov**
 
-* [Facebook](https://www.facebook.com/alextarkhov)
+* [Facebook](https://www.facebook.com/alex.tarkhov)
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
 * [Product Hunt](https://www.producthunt.com/@tarkhov)
