@@ -3,26 +3,26 @@
 hosts="/etc/hosts"
 sites="/etc/apache2/sites-available"
 
-# Validate site
-site=$1
-if [ ! $site ]; then
-    echo "Site not provided."
-    exit
-fi
-
-# Validate directory
-dir=$2
-if [ ! $dir ]; then
-    echo "Directory not provided."
-    exit
-fi
-
-domain=$3
+# Validate domain
+domain=$1
 if [ ! $domain ]; then
     echo "Domain name not provided."
     exit
 fi
 
+# Validate site
+site=$2
+if [ ! $site ]; then
+    site="${domain}.conf"
+fi
+
+# Validate directory
+dir=$3
+if [ ! $dir ]; then
+    dir="${PWD}/${domain}"
+fi
+
+# Validate host
 host=$4
 if [ ! $host ]; then
     host="127.0.0.1"

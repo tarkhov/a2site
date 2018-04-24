@@ -1,14 +1,14 @@
-# Apache site management
+# Apache 2 site management
 
-Apache HTTP Server site creation and removing tools using command line.
+Apache 2 HTTP Server site creation and removing tools using command line.
 
 ### Contents
 
 1. [Installation](#installation)
-  1. [Ubuntu](#ubuntu)
+   1. [Ubuntu](#ubuntu)
 2. [Usage](#usage)
-  1. [Site creation](#site-creation)
-  2. [Site removing](#site-removing)
+   1. [Site creation](#site-creation)
+   2. [Site removing](#site-removing)
 3. [Author](#author)
 4. [License](#license)
 
@@ -21,7 +21,7 @@ From PPA:
 ```bash
 sudo add-apt-repository ppa:tarkhov/ppa
 sudo apt-get update
-sudo apt-get install apache-site-commands
+sudo apt-get install a2site
 ```
 
 ## Usage
@@ -29,13 +29,13 @@ sudo apt-get install apache-site-commands
 ### Site creation
 
 ```bash
-sudo a2mksite mysite.conf ~/myfolder mydomain 127.0.0.1
+sudo a2mksite mydomain mysite.conf ~/myfolder 127.0.0.1
 ```
 
 ### Site removing
 
 ```bash
-sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
+sudo a2rmsite mydomain mysite.conf ~/myfolder 127.0.0.1
 ```
 
 ## Author
@@ -49,4 +49,4 @@ sudo a2rmsite mysite.conf ~/myfolder mydomain 127.0.0.1
 
 ## License
 
-This project is licensed under the **Apache 2.0 License** - see the `LICENSE` file for details.
+This project is licensed under the **MIT License** - see the `LICENSE` file for details.
