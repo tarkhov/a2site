@@ -1,4 +1,4 @@
-# Apache 2 site management
+# a2site
 
 Apache 2 HTTP Server site creation and removing tools using command line.
 
@@ -20,8 +20,8 @@ From PPA:
 
 ```bash
 sudo add-apt-repository ppa:tarkhov/ppa
-sudo apt-get update
-sudo apt-get install a2site
+sudo apt update
+sudo apt install a2site
 ```
 
 ## Usage
