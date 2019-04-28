@@ -4,13 +4,21 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 
 ### Contents
 
-1. [Installation](#installation)
+1. [Compatibility](#compatibility)
+2. [Installation](#installation)
    1. [Ubuntu](#ubuntu)
-2. [Usage](#usage)
+3. [Usage](#usage)
    1. [Site creation](#site-creation)
    2. [Site removing](#site-removing)
-3. [Author](#author)
-4. [License](#license)
+4. [Author](#author)
+5. [License](#license)
+
+## Compatibility
+
+Name | Version
+------- | -------
+Ubuntu | 12.04 - 18.04 LTS
+Apache | 2
 
 ## Installation
 
