@@ -10,14 +10,15 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 3. [Usage](#usage)
    1. [Site creation](#site-creation)
    2. [Site removing](#site-removing)
-4. [Author](#author)
-5. [License](#license)
+4. [Removing](#removing)
+5. [Author](#author)
+6. [License](#license)
 
 ## Compatibility
 
 Name | Version
 ------- | -------
-Ubuntu | 12.04 - 18.04 LTS
+Ubuntu | >= 12.04
 Apache | 2
 
 ## Installation
@@ -44,6 +45,14 @@ sudo a2mksite mydomain mysite.conf ~/myfolder 127.0.0.1
 
 ```bash
 sudo a2rmsite mydomain mysite.conf ~/myfolder 127.0.0.1
+```
+
+## Removing
+
+To completely remove the package run the command:
+
+```bash
+sudo apt remove --purge a2site
 ```
 
 ## Author
