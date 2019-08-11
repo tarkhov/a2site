@@ -48,6 +48,6 @@ fi
 sed -i "/^${host}[[:space:]][[:space:]][[:space:]]${domain}$/d" $hosts
 
 a2dissite $site
-service apache2 reload
+systemctl reload apache2
 rm -R $dir
 rm $vhost

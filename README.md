@@ -18,7 +18,7 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 
 Name | Version
 ------- | -------
-Ubuntu | >= 12.04
+Ubuntu | >= 16.04
 Apache | 2
 
 ## Installation

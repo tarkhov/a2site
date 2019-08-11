@@ -75,4 +75,4 @@ echo "$host   $domain" >> $hosts
 a2ensite $site
 
 # Reload Apache
-service apache2 reload
+systemctl reload apache2
