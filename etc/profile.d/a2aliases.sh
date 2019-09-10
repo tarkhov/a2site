@@ -1,0 +1,7 @@
+alias a2mks='a2mksite'
+alias a2rms='a2rmsite'
+alias a2rl='a2reload'
+alias a2rs='a2restart'
+alias a2sr='a2start'
+alias a2st='a2status'
+alias a2sp='a2stop'
