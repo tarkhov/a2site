@@ -8,8 +8,9 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 2. [Installation](#installation)
    1. [Ubuntu](#ubuntu)
 3. [Usage](#usage)
-   1. [Site creation](#site-creation)
-   2. [Site removing](#site-removing)
+   1. [Aliases](#aliases)
+   2. [Site creation](#site-creation)
+   3. [Site removing](#site-removing)
 4. [Removing](#removing)
 5. [Author](#author)
 6. [License](#license)
@@ -34,6 +35,19 @@ sudo apt install a2site
 ```
 
 ## Usage
+
+### Aliases
+
+Alias | Command
+------- | -------
+`a2l` | `a2list`
+`a2mk` | `a2mksite`
+`a2rl` | `a2reload`
+`a2rm` | `a2rmsite`
+`a2rs` | `a2restart`
+`a2s` | `a2start`
+`a2sp` | `a2stop`
+`a2st` | `a2status`
 
 ### Site creation
 
@@ -62,7 +76,7 @@ sudo apt remove --purge a2site
 * [Facebook](https://www.facebook.com/alex.tarkhov)
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
-* [Product Hunt](https://www.producthunt.com/@tarkhov)
+* [LinkedIn](https://www.linkedin.com/in/tarkhov/)
 
 ## License
 
