@@ -55,6 +55,24 @@ Alias | Command
 sudo a2mksite mydomain mysite.conf ~/myfolder 127.0.0.1
 ```
 
+This command will create:
+
+* /etc/apache2/sites-available/mysite.conf virtual host with url http://mydomain
+* folder in current directory with name mydomain 
+* record in /etc/hosts - mydomain 127.0.0.1
+
+Short version:
+
+```bash
+sudo a2mksite mydomain
+```
+
+This command will create:
+
+* /etc/apache2/sites-available/mydomain.conf virtual host with url http://mydomain
+* folder in current directory with name mydomain 
+* record in /etc/hosts - mydomain 127.0.0.1
+
 ### Site removing
 
 ```bash
