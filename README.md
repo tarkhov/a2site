@@ -57,11 +57,11 @@ sudo a2mksite mydomain mysite.conf ~/myfolder 127.0.0.1
 
 This command will create:
 
-* /etc/apache2/sites-available/mysite.conf virtual host with url http://mydomain
-* folder in current directory with name mydomain 
-* record in /etc/hosts - mydomain 127.0.0.1
+* Virtual host `/etc/apache2/sites-available/mysite.conf` with url http://mydomain.
+* Folder `~/myfolder`.
+* Record in `/etc/hosts` - mydomain   127.0.0.1.
 
-Short version:
+#### Short command
 
 ```bash
 sudo a2mksite mydomain
@@ -69,14 +69,21 @@ sudo a2mksite mydomain
 
 This command will create:
 
-* /etc/apache2/sites-available/mydomain.conf virtual host with url http://mydomain
-* folder in current directory with name mydomain 
-* record in /etc/hosts - mydomain 127.0.0.1
+* Virtual host `/etc/apache2/sites-available/mydomain.conf` with url http://mydomain.
+* Folder in current directory with name mydomain.
+* Record in `/etc/hosts` - mydomain   127.0.0.1.
+* Restart web server.
 
 ### Site removing
 
 ```bash
 sudo a2rmsite mydomain mysite.conf ~/myfolder 127.0.0.1
+```
+
+#### Short command
+
+```bash
+sudo a2rmsite mydomain
 ```
 
 ## Removing
