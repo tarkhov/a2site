@@ -8,9 +8,9 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 2. [Installation](#installation)
    1. [Ubuntu](#ubuntu)
 3. [Usage](#usage)
-   1. [Aliases](#aliases)
-   2. [Site creation](#site-creation)
-   3. [Site removing](#site-removing)
+   1. [Site creation](#site-creation)
+   2. [Site removing](#site-removing)
+   3. [Aliases](#aliases)
 4. [Removing](#removing)
 5. [Author](#author)
 6. [License](#license)
@@ -35,19 +35,6 @@ sudo apt install a2site
 ```
 
 ## Usage
-
-### Aliases
-
-Alias | Command
-------- | -------
-`a2l` | `a2list`
-`a2mk` | `a2mksite`
-`a2rl` | `a2reload`
-`a2rm` | `a2rmsite`
-`a2rs` | `a2restart`
-`a2s` | `a2start`
-`a2sp` | `a2stop`
-`a2st` | `a2status`
 
 ### Site creation
 
@@ -85,6 +72,23 @@ sudo a2rmsite mydomain mysite.conf ~/myfolder 127.0.0.1
 ```bash
 sudo a2rmsite mydomain
 ```
+
+### Aliases
+
+Alias | Command
+------- | -------
+`a2d` | `a2disable`
+`a2ds` | `a2dissite`
+`a2e` | `a2enable`
+`a2es` | `a2ensite`
+`a2l` | `a2list`
+`a2mk` | `a2mksite`
+`a2rl` | `a2reload`
+`a2rm` | `a2rmsite`
+`a2rs` | `a2restart`
+`a2s` | `a2start`
+`a2sp` | `a2stop`
+`a2st` | `a2status`
 
 ## Removing
 

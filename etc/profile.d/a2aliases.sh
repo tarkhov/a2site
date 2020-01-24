@@ -1,3 +1,7 @@
+alias a2d='a2disable'
+alias a2ds='a2dissite'
+alias a2e='a2enable'
+alias a2es='a2ensite'
 alias a2l='a2list'
 alias a2mk='a2mksite'
 alias a2rl='a2reload'
