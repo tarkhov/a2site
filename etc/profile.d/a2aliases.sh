@@ -1,6 +1,8 @@
 alias a2d='a2disable'
+alias a2dm='a2dismod'
 alias a2ds='a2dissite'
 alias a2e='a2enable'
+alias a2ed='a2enmod'
 alias a2es='a2ensite'
 alias a2l='a2list'
 alias a2mk='a2mksite'

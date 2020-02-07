@@ -1,4 +1,4 @@
-# a2site
+# Apache 2 site
 
 Apache 2 HTTP Server site creation and removing tools using command line.
 
@@ -20,7 +20,7 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 Name | Version
 ------- | -------
 Ubuntu | >= 16.04
-Apache | 2
+Apache | >= 2
 
 ## Installation
 
@@ -78,8 +78,10 @@ sudo a2rmsite mydomain
 Alias | Command
 ------- | -------
 `a2d` | `a2disable`
+`a2dm` | `a2dismod`
 `a2ds` | `a2dissite`
 `a2e` | `a2enable`
+`a2em` | `a2enmod`
 `a2es` | `a2ensite`
 `a2l` | `a2list`
 `a2mk` | `a2mksite`
