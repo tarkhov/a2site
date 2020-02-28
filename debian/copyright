@@ -3,11 +3,11 @@ Upstream-Name: a2site
 Source: https://github.com/tarkhov/a2site
 
 Files: *
-Copyright: 2016-2018 Alexander Tarkhov <agtuks@gmail.com>
+Copyright: 2016-2020 Alexander Tarkhov <agtuks@gmail.com>
 License: MIT
 
 Files: debian/*
-Copyright: 2016-2018 Alexander Tarkhov <agtuks@gmail.com>
+Copyright: 2016-2020 Alexander Tarkhov <agtuks@gmail.com>
 License: MIT
 
 License: MIT
