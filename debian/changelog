@@ -1,3 +1,9 @@
+a2site (0.1.5-1) bionic; urgency=medium
+
+  * Fix release
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Fri, 28 Feb 2020 02:36:00 +0200
+
 a2site (0.1.4-1) bionic; urgency=medium
 
   * Fourth release

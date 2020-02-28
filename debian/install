@@ -1,6 +1,5 @@
 etc/apache2/a2site.conf etc/apache2
 etc/profile.d/a2path.sh etc/profile.d
-etc/profile.d/a2aliases.sh etc/profile.d
 usr/bin/a2disable usr/bin
 usr/bin/a2enable usr/bin
 usr/bin/a2list usr/bin
@@ -11,3 +10,17 @@ usr/bin/a2rmsite usr/bin
 usr/bin/a2start usr/bin
 usr/bin/a2status usr/bin
 usr/bin/a2stop usr/bin
+usr/bin/a2d usr/bin
+usr/bin/a2dm usr/bin
+usr/bin/a2ds usr/bin
+usr/bin/a2e usr/bin
+usr/bin/a2ed usr/bin
+usr/bin/a2es usr/bin
+usr/bin/a2l usr/bin
+usr/bin/a2mk usr/bin
+usr/bin/a2rl usr/bin
+usr/bin/a2rm usr/bin
+usr/bin/a2rs usr/bin
+usr/bin/a2s usr/bin
+usr/bin/a2sp usr/bin
+usr/bin/a2st usr/bin
