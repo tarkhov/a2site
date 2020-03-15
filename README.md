@@ -78,9 +78,11 @@ sudo a2rmsite mydomain
 Alias | Command
 ------- | -------
 `a2d` | `a2disable`
+`a2dc` | `a2disconf`
 `a2dm` | `a2dismod`
 `a2ds` | `a2dissite`
 `a2e` | `a2enable`
+`a2ec` | `a2enconf`
 `a2em` | `a2enmod`
 `a2es` | `a2ensite`
 `a2l` | `a2list`

@@ -11,9 +11,11 @@ usr/bin/a2start usr/bin
 usr/bin/a2status usr/bin
 usr/bin/a2stop usr/bin
 usr/bin/a2d usr/bin
+usr/bin/a2dc usr/bin
 usr/bin/a2dm usr/bin
 usr/bin/a2ds usr/bin
 usr/bin/a2e usr/bin
+usr/bin/a2ec usr/bin
 usr/bin/a2ed usr/bin
 usr/bin/a2es usr/bin
 usr/bin/a2l usr/bin
