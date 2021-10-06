@@ -7,6 +7,7 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 1. [Compatibility](#compatibility)
 2. [Installation](#installation)
    1. [Ubuntu](#ubuntu)
+   2. [Manually](#manually)
 3. [Usage](#usage)
    1. [Site creation](#site-creation)
    2. [Site removing](#site-removing)
@@ -32,6 +33,12 @@ From PPA:
 sudo add-apt-repository ppa:tarkhov/ppa
 sudo apt update
 sudo apt install a2site
+```
+
+### Manually
+
+```bash
+sudo dpkg -i a2site_1.0.0-1_amd64.deb
 ```
 
 ## Usage
