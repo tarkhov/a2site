@@ -19,7 +19,7 @@ Apache 2 HTTP Server site creation and removing tools using command line.
 
 Name | Version
 ------- | -------
-Ubuntu | >= 16.04
+Ubuntu | >= 18.04
 Apache | >= 2
 
 ## Installation
@@ -77,22 +77,15 @@ sudo a2rmsite mydomain
 
 Alias | Command
 ------- | -------
-`a2d` | `a2disable`
-`a2dc` | `a2disconf`
-`a2dm` | `a2dismod`
-`a2ds` | `a2dissite`
-`a2e` | `a2enable`
-`a2ec` | `a2enconf`
-`a2em` | `a2enmod`
-`a2es` | `a2ensite`
-`a2l` | `a2list`
-`a2mk` | `a2mksite`
-`a2rl` | `a2reload`
-`a2rm` | `a2rmsite`
-`a2rs` | `a2restart`
-`a2s` | `a2start`
-`a2sp` | `a2stop`
-`a2st` | `a2status`
+`a2disable` | `systemctl disable apache2`
+`a2enable` | `systemctl enable apache2`
+`a2list` | `apache2ctl -S`
+`a2reload` | `systemctl reload apache2`
+`a2restart` | `systemctl restart apache2`
+`a2start` | `systemctl start apache2`
+`a2status` | `systemctl status apache2`
+`a2stop` | `systemctl stop apache2`
+`a2test` | `apache2ctl -t`
 
 ## Removing
 
